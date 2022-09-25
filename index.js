@@ -9,13 +9,13 @@ const questions = () =>{
     return inquirer.prompt([
         {
             type: "input",
-            name: "title",
+            name: "Title",
             message: "What is the project title?"
         },
         {
             type: "input",
             name: "Description",
-            message: "Write a brief description for your project"
+            message: "Write a brief description for your project:"
         },
 //        {
 //            type: "input",
@@ -24,51 +24,52 @@ const questions = () =>{
 //        },
         {
             type: "input",
-            name: "installation",
+            name: "Installation",
             message: "Describe the installation process if any:"
         },
         {
             type: "input",
-            name: "usage",
-            message: "What is your application used for?"
+            name: "Usage",
+            message: "What is this project used for?"
         },
         {
             type: "list",
-            name: "license",
+            name: "License",
             message: "Choose a license for your application",
             choices: [
-                "apache",
+                "Apache",
+                "Academic",
                 "GNU",
                 "Mozilla",
-                "mit",
-                "no license"
+                "MIT",
+                "Open"
             ]
         },
         {
             type: "input",
-            name: "contributors",
+            name: "Contributors",
             message: "Who contributed to this application?"
         },
         {
             type: "input",
-            name: "tests",
+            name: "Tests",
             message: "Enter any instructions for testing this application:"
         },
         {
             type: "input",
-            name: "gitHub",
+            name: "Questions",
+            message: "What do I do if I have an issue?:"
+        },
+        {
+            type: "input",
+            name: "GitHub-Username",
             message: "Please Enter your GitHib username:"
         },
         {
             type: "input",
-            name: "email",
+            name: "Contact-Info",
             message: "Please enter your email:"
         },
-        {
-            type: "input",
-            name: "url",
-            message: "Enter the URL for the live site",
-          },
 
     ]);
 }

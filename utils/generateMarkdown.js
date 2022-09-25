@@ -63,16 +63,15 @@ function generateMarkdown(data){
 
   Link to deployed sit.(${data.url})
   ## Table-of-Contents
-  1. Description
-  2. [Table-of-Contents](#Table-of-Contents)
-  3. [Installation](#installation)
-  4. [Usage](#usage)
-  5. [License](#license)
-  6. [Contributors](#contributors)
-  7. [Tests](#tests)
-  8. [Questions](#Questions)
-  9. [GitHub-Username] (#GitHub-Username)
-  10. [Contact-Info] (#Contact-Info)
+  1. [Description](#Description)
+  2. [Installation](#Installation)
+  3. [Usage](Usage)
+  4. [License](#License)
+  5. [Contributors](#Contributors)
+  6. [Tests](#Tests)
+  7. [Questions](#Questions)
+  8. [GitHub-Username] (#GitHub-Username)
+  9. [Contact-Info] (#Contact-Info)
       
   ## Functionality
   ${data.functionality}
