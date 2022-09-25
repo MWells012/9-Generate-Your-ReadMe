@@ -4,19 +4,40 @@
 function renderLicenseBadge(license) {
   if (license !== "no license to display"){
       return `
-![licence-badge](http://img.shields.io/badge/license-${license}-blue.svg)
-      `;
-  }else{
+![licence-badge](http://img.shields.io/badge/license-${license}-blue.svg)`;
+  } else {
       return ' ';
   }
-}
+};
 
 
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 // link the actual license
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  if (license === "mozilla") {
+      return `
+[${license}](https://choosealicense.com/licenses/mpl-2.0/)
+      `
+  }else if( license === 'apache'){
+      return `
+[${license}](https://choosealicense.com/licenses/apache-2.0/)
+      `
+  }else if( license === 'mit'){
+      return `
+[${license}](https://choosealicense.com/licenses/mit/)
+      `
+  }else if( license === 'GNU'){
+      return `
+[${license}](https://choosealicense.com/licenses/agpl-3.0/)
+      `
+  }else if( license === 'no license'){
+      return `
+      no license to display
+      `
+  }
+};
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -46,12 +67,12 @@ function generateMarkdown(data){
       -[User Story](#user-story)
       -[Acceptance Criteria](#acceptance-criteria)
       -[Screenshots](#screenshots)
-  1. [Installation](#installation)
-  2. [Usage](#usage)
-  3. [License](#license)
-  4. [Contributors](#contributors)
-  5. [Tests](#tests)
-  6. [Questions](#Questions)
+  2. [Installation](#installation)
+  3. [Usage](#usage)
+  4. [License](#license)
+  5. [Contributors](#contributors)
+  6. [Tests](#tests)
+  7. [Questions](#Questions)
       
   ## Functionality
   ${data.functionality}

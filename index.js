@@ -10,13 +10,18 @@ const questions = () =>{
         {
             type: "input",
             name: "title",
-            message: "Enter ther title of your project"
+            message: "What is the project title?"
         },
         {
             type: "input",
             name: "description",
-            message: "Enter a brief description for your project"
+            message: "Write a brief description for your project"
         },
+//        {
+//            type: "input",
+//            name: "contents",
+//            message: "Enter a table of contents for your project"
+//        },
         {
             type: "input",
             name: "functionality",
@@ -25,7 +30,7 @@ const questions = () =>{
         {
             type: "input",
             name: "installation",
-            message: "describe the installation process of your application"
+            message: "Describe the installation process if any:"
         },
         {
             type: "input",
@@ -52,17 +57,17 @@ const questions = () =>{
         {
             type: "input",
             name: "tests",
-            message: "Enter any instructions for testing this application"
+            message: "Enter any instructions for testing this application:"
         },
         {
             type: "input",
             name: "gitHub",
-            message: "Enter your GitHib username"
+            message: "Please Enter your GitHib username:"
         },
         {
             type: "input",
             name: "email",
-            message: "Enter your email address for people to contact you"
+            message: "Please enter your email:"
         },
         {
             type: "input",
