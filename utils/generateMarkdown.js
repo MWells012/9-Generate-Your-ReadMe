@@ -16,15 +16,15 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 // link the actual license
 function renderLicenseLink(license) {
-  if (license === "mozilla") {
+  if (license === "Mozilla") {
       return `
 [${license}](https://choosealicense.com/licenses/mpl-2.0/)
       `
-  }else if( license === 'apache'){
+  }else if( license === 'Apache'){
       return `
 [${license}](https://choosealicense.com/licenses/apache-2.0/)
       `
-  }else if( license === 'mit'){
+  }else if( license === 'MIT'){
       return `
 [${license}](https://choosealicense.com/licenses/mit/)
       `
@@ -32,9 +32,9 @@ function renderLicenseLink(license) {
       return `
 [${license}](https://choosealicense.com/licenses/agpl-3.0/)
       `
-  }else if( license === 'no license'){
+  }else if( license === 'Open'){
       return `
-      no license to display
+      Nothing to display.
       `
   }
 };
@@ -43,14 +43,15 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 // none to display
 function renderLicenseSection(license) {
-  if (license !== 'no license to display') {
-    return `The application is covered under the following license: ${license}
+  if (license !== 'Nothing to display.') {
+    return 
+    `The application is covered under the following license: ${license}
     For more information about this license, click the link:${renderLicenseLink(license)}
     :`
   } else {
     return ' ';
   }
-}
+};
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data){
@@ -63,45 +64,45 @@ function generateMarkdown(data){
 
   Link to deployed sit.(${data.url})
   ## Table-of-Contents
+
   1. [Description](#Description)
   2. [Installation](#Installation)
-  3. [Usage](Usage)
+  3. [Usage](#Usage)
   4. [License](#License)
   5. [Contributors](#Contributors)
   6. [Tests](#Tests)
   7. [Questions](#Questions)
-  8. [GitHub-Username] (#GitHub-Username)
-  9. [Contact-Info] (#Contact-Info)
+  8. [GitHub-Username] (#Username)
+  9. [Contact-Info] (#Email)
       
-  ## Functionality
-  ${data.functionality}
+  ## Description
+  ${data.Description}
   ---
-  ## User Story
+  ## Installation
+  ${data.Installation}
   ---
-  ## Acceptance Criteria
-  ---
-  ## Screenshots
-  ---
-  ## Installation 
-  ${data.installation}
   ## Usage
-  ${data.usage}
+  ${data.Usage}
+  ---
   ## License
-  ${renderLicenseBadge(data.license)}
-  ${renderLicenseSection(data.license)}
-  ## Contributors
+  ${renderLicenseBadge(data.License)}
+  ${renderLicenseSection(data.License)}
+  ---
+  ## Contributors 
   To contribute to this application:
    1. fork the repo
    2. create your own branch 
    3. commit your local changes
    4. push your branch to GitHub
   Pending review, your changes will be added and pending review
-  ${data.contributors}
+  ${data.Contributors}
+  
   ## Tests
-  ${data.tests}
+  ${data.Tests}
+
   ## Questions
-  For any questions, you may contact me via GitHub (https://github.com/${data.gitHub})
-      or via email at ${data.email}
+  For any questions, you may contact me via GitHub (https://github.com/${data.Username})
+      or via email at ${data.Email}
    `;
   };
   

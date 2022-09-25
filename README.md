@@ -1,45 +1,51 @@
-# 9-Generate-Your-ReadMe
 
-# 5-TimeToPlan
+  ## undefined
 
-# Table of Contents
-- [Acceptance-Criteria](#acceptance-criteria)
-- [Expected-Behavior](#expected-behavior)
-- [Usage](#usage)
-- [Learnings](#learnings)
-- [Mock-Up](#mock-up)
+  
+![licence-badge](http://img.shields.io/badge/license-undefined-blue.svg)
 
+  undefined
 
-# Expected Bahavior
+  Link to deployed sit.(undefined)
+  ## Table-of-Contents
 
+  1. [Description](#Description)
+  2. [Installation](#Installation)
+  3. [Usage](#Usage)
+  4. [License](#License)
+  5. [Contributors](#Contributors)
+  6. [Tests](#Tests)
+  7. [Questions](#Questions)
+  8. [GitHub-Username] (#Username)
+  9. [Contact-Info] (#Email)
+      
+  ## Description
+  Jibberish Jibberish
+  ---
+  ## Installation
+  Jibberish Jibberish
+  ---
+  ## Usage
+  Jibberish Jibberish
+  ---
+  ## License
+  
+![licence-badge](http://img.shields.io/badge/license-GNU-blue.svg)
+  undefined
+  ---
+  ## Contributors 
+  To contribute to this application:
+   1. fork the repo
+   2. create your own branch 
+   3. commit your local changes
+   4. push your branch to GitHub
+  Pending review, your changes will be added and pending review
+  Jibberish Jibberish
+  
+  ## Tests
+  Jibberish Jibberish
 
-
-# Acceptance Criteria
-
-GIVEN a command-line application that accepts user input
-WHEN I am prompted for information about my application repository
-THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-WHEN I enter my project title
-THEN this is displayed as the title of the README
-WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-WHEN I choose a license for my application from a list of options
-THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-WHEN I enter my GitHub username
-THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-WHEN I enter my email address
-THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-WHEN I click on the links in the Table of Contents
-THEN I am taken to the corresponding section of the README
-
-# Usage
-
-
-# Learnings
-
-
-# Mock-Up
-
-link to the deployed site: 
-
-The following image show the web application's appearance and functionality:
+  ## Questions
+  For any questions, you may contact me via GitHub (https://github.com/Jibberish Jibberish)
+      or via email at Jibberish Jibberish
+   

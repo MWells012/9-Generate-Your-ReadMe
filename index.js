@@ -2,7 +2,7 @@
 
 const inquirer = require("inquirer");
 const fs = require("fs");
-const generateMarkdown = require("./Develop/utils/generateMarkdown")
+const generateMarkdown = require("./utils/generateMarkdown");
 
 // TODO: Create an array of questions for user input
 const questions = () =>{
@@ -17,11 +17,6 @@ const questions = () =>{
             name: "Description",
             message: "Write a brief description for your project:"
         },
-//        {
-//            type: "input",
-//            name: "contents",
-//            message: "Enter a table of contents for your project"
-//        },
         {
             type: "input",
             name: "Installation",
@@ -62,17 +57,17 @@ const questions = () =>{
         },
         {
             type: "input",
-            name: "GitHub-Username",
+            name: "Username",
             message: "Please Enter your GitHib username:"
         },
         {
             type: "input",
-            name: "Contact-Info",
+            name: "Email",
             message: "Please enter your email:"
         },
 
     ]);
-}
+};
 
 // TODO: Create a function to write README file
 const writeToFile = data => {
@@ -92,9 +87,9 @@ const writeToFile = data => {
 };
 
 // TODO: Create a function to initialize app
-function init() {
+const init =() => {
     return questions();
-}
+};
 
 // Function call to initialize app
 init()

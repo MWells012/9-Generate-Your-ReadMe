@@ -1,7 +1,7 @@
 {
   "name": "9-generate-your-readme",
   "version": "1.0.0",
-  "description": "[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)",
+  "description": "# 5-TimeToPlan",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/MWells012/9-Generate-Your-ReadMe/issues"
   },
-  "homepage": "https://github.com/MWells012/9-Generate-Your-ReadMe#readme"
+  "homepage": "https://github.com/MWells012/9-Generate-Your-ReadMe#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {}
 }
