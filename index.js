@@ -14,7 +14,7 @@ const questions = () =>{
         },
         {
             type: "input",
-            name: "description",
+            name: "Description",
             message: "Write a brief description for your project"
         },
 //        {
@@ -22,11 +22,6 @@ const questions = () =>{
 //            name: "contents",
 //            message: "Enter a table of contents for your project"
 //        },
-        {
-            type: "input",
-            name: "functionality",
-            message: "Enter the details describing what your project is used for"
-        },
         {
             type: "input",
             name: "installation",
