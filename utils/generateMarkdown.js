@@ -92,7 +92,7 @@ function generateMarkdown(data){
    2. create your own branch 
    3. commit your local changes
    4. push your branch to GitHub
-  Pending review, your changes will be added and pending review
+  Pending review by others, your changes will be added if they meet the criteria of the project
   ${data.Contributors}
   
   ## Tests
