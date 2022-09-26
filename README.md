@@ -46,4 +46,10 @@
   ## Questions
   For any questions, you may contact me via GitHub (https://github.com/MWells012)
       or via email at michaelawells@rocketmortgage.com
+
+ ## Links
+ link to the deployed site:
+ The following image show the web application's appearance and functionality:
+ [https://github.com/MWells012/9-Generate-Your-ReadMe/blob/main/sources/Screen%20Shot%202022-09-25%20at%208.51.45%20PM.png]
+ Video: [https://github.com/MWells012/9-Generate-Your-ReadMe/blob/main/sources/Untitled_%20Sep%2025%2C%202022%208_49%20PM.webm]
    
