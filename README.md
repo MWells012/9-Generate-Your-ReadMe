@@ -14,8 +14,6 @@
   5. [Contributors](#Contributors)
   6. [Tests](#Tests)
   7. [Questions](#Questions)
-  8. [GitHub-Username] (#Username)
-  9. [Contact-Info] (#Email)
       
   ## Description
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
