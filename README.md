@@ -1,5 +1,5 @@
 
-  ## Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  ## Lorem Ipsum
 
   
 ![licence-badge](http://img.shields.io/badge/license-Open-blue.svg)
@@ -37,13 +37,13 @@
    2. create your own branch 
    3. commit your local changes
    4. push your branch to GitHub
-  Pending review, your changes will be added and pending review
+  Pending review by others, your changes will be added if they meet the criteria of the project
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   
   ## Tests
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
   ## Questions
-  For any questions, you may contact me via GitHub (https://github.com/Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.)
-      or via email at Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  For any questions, you may contact me via GitHub (https://github.com/Username)
+      or via email at Username@gmail.com
    
